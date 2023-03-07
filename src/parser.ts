@@ -31,7 +31,7 @@ export type PreviewResults =
       parseError: undefined;
     } & PreviewReport);
 
-export const PREVIEW_ROW_COUNT = 5;
+export const PREVIEW_ROW_COUNT = 20;
 
 // for each given target field name, source from original CSV column index
 export type FieldAssignmentMap = { [name: string]: number | undefined };
